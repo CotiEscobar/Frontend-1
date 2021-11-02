@@ -1,0 +1,78 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo {
+    width: 1440px;
+    height: 188px;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logo .logo_batman {
+  width: 100px;
+  height: 150px;
+  left: 670px;
+  top: 21px;
+  position: relative;
+}
+h1 {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 167px;
+    background-color: #c4c4c4;
+}
+h1 p {
+    text-align: center;
+    bottom: 20px;
+    position: relative;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #005677;
+    line-height: 29,64px;
+    letter-spacing: 10px;
+}
+section {
+    position: relative;
+    top: 350px;
+    width: 1440px;
+}
+section h2 {
+    background-color: #c4c4c4;
+    color: #005677;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+ul {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+ul li {
+    padding: 5px;
+}
+ul li .datos {
+    font-style: italic;
+    font-weight: bold;
+}
+p {
+    color: black;
+    font-weight: bold;
+}
+footer {
+    position: relative;
+    top: 350px;
+}
+
+
+
