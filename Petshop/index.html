@@ -4,42 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Petshop</title>
 </head>
 <body>
     <header>
-        <nav> Barra sup
-            <ul>
-                <li>Grandes ofertas en comederos</li>
-                <li>Menu regional</li>
-                    <ul>
-                        <li>Español</li>
-                        <li>$ARG</li>
-                    </ul>
-            </ul> 
+
+        <nav class="barra_superior">
+            <div class="barra_superior container">
+                   <div>Grandes ofertas en Comederos</div> 
+                   <div>
+                       <p>Español <i class="fas fa-chevron-down"></i></p>
+                       <p>ARG$ <i class="fas fa-chevron-down"></i></p>
+                   </div>
+                 
+            </div>
         </nav>
-        <nav> Barra de menu
-            <ul>
-                <img src="./Logo.png" alt="">
-                <li>Menu principal</li>
-                <ul>
-                    <li>Categorias</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
-            </ul>
+
+        <nav class="barra_menu">
+            <div class="barra_menu container" >
+                <div>
+                    <img src="./Logo.png" alt="">
+                </div>
+                <div class="indice">
+                    <div><i class="fas fa-paw"></i>Categorías</div>
+                    <div><i class="fas fa-paw"></i>Pet</div>
+                    <div><i class="fas fa-paw"></i>Nosotros</div>
+                    <div><i class="fas fa-paw"></i>Contactanos</div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./bowl-and-pet-daities-on-green-background 1.png" alt="imagen de backgound">
-            <p>Es un placer tenerte aqui!!</p>
-            <p>Comederos en descuento</p>
-            <p>COMEDEROS</p>
+        <section class="section_img">
+            <div>
+                <img src="./bowl-and-pet-daities-on-green-background 1.png" alt="imagen de backgound">
+                <div class="section_img container">
+                    <p class="p1">¡Es un placer tenerte aquí!</p>
+                    <p class="p2">¡Comederos en descuento!</p>
+                    <p class="p3">COMEDEROS</p>
+                </div>
+            </div>
         </section>
+        
         <section>
-            <img src="./" alt="patita">
+            <i class="fas fa-paw"></i>
             <p>Productos destacados</p>
             <p>Comederos - Accesorios - Comida</p>
         </section>
@@ -59,6 +72,10 @@
             <p>$650</p>
         </section>
     </main>
-    <footer>Todos los derechos reservaos Front End</footer>
+    <footer>
+        <span>Todos los derechos reservaos Front End</span>
+        <span>Instagram</span>
+        <span>Twitter</span>
+    </footer>
 </body>
 </html>

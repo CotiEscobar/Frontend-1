@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.barra_superior {
+    width: 100%;
+    height: 20px;
+    background-color: #222222;
+}
+.barra_superior.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+.barra_superior.container p {
+    display: inline;
+    padding: 10px;
+}
+.barra_superior.container img {
+    width: 10px;
+    height: 10px;
+}
+.barra_menu {
+    top: 20px;
+    height: 62px;
+    width: 100%;
+    background-color: #F0A83E;
+}
+.barra_menu.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.barra_menu.container img {
+   padding: 30px ;
+}
+.barra_menu.container .indice {
+    display: flex;
+    flex-direction: row;
+}
+.barra_menu.container .indice  div {
+    padding: 0 15px;
+}
+.barra_menu.container .indice {
+    padding-right: 30px;
+}
+.barra_menu.container .indice i {
+    padding-right: 5px;
+}
+.section_img {
+    width: 100%;
+}
+.section_img img {
+    width: 100%;
+    position: relative;
+}
+.section_img.container {
+    position: absolute;
+    width: 365px;
+    left: 648px;
+    top: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_img.container .p1 {
+    height: 54px;
+    background-color: #ffff;
+    font-size: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.section_img.container .p2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_img.container .p3 {
+    width: 141px;
+    height: 50px;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas.fa-paw {
+}
+/*
+position: absolute;
+width: 1024px;
+height: 951px;
+left: 0px;
+top: 81px;
