@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+/*estilando barras de navegacion*/
+
+/*estilando la card de batman*/
+.batman-card {
+    height: 528px;
+    width: 300px;
+    background-color:whitesmoke;
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.imagen-fondo {
+    position: relative;
+}
+.imagen-fondo .logo {
+    position: absolute;
+    top: 120px;
+    left: 85px;
+}
+.logo img {
+    border-radius: 50%;
+}
+h1 {
+    font-weight: 400;
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    top: 280px;
+    left: 80px;
+}
+p {
+    padding: 25px;
+    position: relative;
+    top: 80px;
+}
+button {
+    position: relative;
+    top: 50px;
+    left: 90px;
+    background-color:#00669F;
+    color: white;
+    padding: 15px 25px;
+    box-shadow: none;
+    border-color:#00669F ;
+    
+}
