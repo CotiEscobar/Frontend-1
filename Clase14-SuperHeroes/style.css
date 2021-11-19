@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0
+
+}
+/*estilando barras de navegacion*/
+.nav1 {
+    width: 100%;
+    height: 20px;
+    background-color: #D1891C;
+}
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background-color: #00669F;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+/*estilando contenedor de card */
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+/*dando estilos a las cards*/
+.cards {
+    height: 528px;
+    width: 300px;
+    background-color: whitesmoke;
+    background-image: url(./fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.cards.superman {
+    background-image: url(./fondo-superman\ \(1\).png);
+}
+.cards.mujer-maravilla {
+    background-image: url(./fondo-mm.png);
+}
+/*estilos de la imagen de logo*/
+.batman-img, .mujer-img, .superman-img, .harley-img{
+    position: absolute;
+    width: 130px;
+    top: 120px;
+    left: 85px;
+    border-radius: 50%;
+} 
+/*estilando texto de las cards*/
+.description {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.description h1 {
+    margin-bottom: -30px;
+    font-weight: 400;
+}
+.description p {
+    padding: 20px 10px 0;
+    font-size: 15px;
+}
+/*estilando boton*/
+button {
+    background-color: #00669F;
+    color: white;
+    padding: 10px 30px;
+    border-color: transparent;
+    border-radius: 7px;
+}
+/*estilando footer*/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color:#00669F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer img {
+    width: 100px;
+}
+
+@media screen and (min-width: 800px) {
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .nav2 {
+        font-size: 30px;
+    }
+}
+    
